@@ -11,6 +11,7 @@
 		A2E9F82100C859EDBB099CFF /* Pods_ManageCookingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248F4BEDE1173C0D898A6233 /* Pods_ManageCookingTests.framework */; };
 		DB44B178E3244CEA9C143943 /* Pods_ManageCooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB07D9349370CC88D1A54FF4 /* Pods_ManageCooking.framework */; };
 		F9037FEF1E7FB6B9008CB97B /* foodImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9037FEE1E7FB6B8008CB97B /* foodImg.jpg */; };
+		F9037FF11E80EE99008CB97B /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9037FF01E80EE99008CB97B /* RegisterController.swift */; };
 		F95EC1661E7F755800501782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC1651E7F755800501782 /* AppDelegate.swift */; };
 		F95EC1681E7F755800501782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC1671E7F755800501782 /* ViewController.swift */; };
 		F95EC16B1E7F755900501782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95EC1691E7F755900501782 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		AF42C40211CA98FF4D6AFAE6 /* Pods-ManageCookingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageCookingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManageCookingUITests/Pods-ManageCookingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCB5BC6BE010258A4679A6B3 /* Pods_ManageCookingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManageCookingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9037FEE1E7FB6B8008CB97B /* foodImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodImg.jpg; sourceTree = "<group>"; };
+		F9037FF01E80EE99008CB97B /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		F95EC1621E7F755800501782 /* ManageCooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageCooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95EC1651E7F755800501782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F95EC1671E7F755800501782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				F95EC1651E7F755800501782 /* AppDelegate.swift */,
 				F95EC1671E7F755800501782 /* ViewController.swift */,
 				F95EC1691E7F755900501782 /* Main.storyboard */,
+				F9037FF01E80EE99008CB97B /* RegisterController.swift */,
 				F95EC16F1E7F755B00501782 /* Assets.xcassets */,
 				F9037FEE1E7FB6B8008CB97B /* foodImg.jpg */,
 				F95EC1711E7F755B00501782 /* LaunchScreen.storyboard */,
@@ -460,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9037FF11E80EE99008CB97B /* RegisterController.swift in Sources */,
 				F95EC1681E7F755800501782 /* ViewController.swift in Sources */,
 				F95EC16E1E7F755A00501782 /* ManageCooking.xcdatamodeld in Sources */,
 				F95EC1661E7F755800501782 /* AppDelegate.swift in Sources */,
