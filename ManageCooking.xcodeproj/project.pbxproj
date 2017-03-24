@@ -21,6 +21,7 @@
 		F95EC17E1E7F756300501782 /* ManageCookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC17D1E7F756300501782 /* ManageCookingTests.swift */; };
 		F95EC1891E7F756300501782 /* ManageCookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC1881E7F756300501782 /* ManageCookingUITests.swift */; };
 		F95EC1971E7F768B00501782 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F95EC1961E7F768B00501782 /* GoogleService-Info.plist */; };
+		F98AC82D1E84D47E00AADD0E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98AC82C1E84D47D00AADD0E /* MainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		F95EC1881E7F756300501782 /* ManageCookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCookingUITests.swift; sourceTree = "<group>"; };
 		F95EC18A1E7F756300501782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95EC1961E7F768B00501782 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F98AC82C1E84D47D00AADD0E /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		FB07D9349370CC88D1A54FF4 /* Pods_ManageCooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManageCooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 				F95EC1651E7F755800501782 /* AppDelegate.swift */,
 				F95EC1671E7F755800501782 /* ViewController.swift */,
 				F95EC1691E7F755900501782 /* Main.storyboard */,
+				F98AC82C1E84D47D00AADD0E /* MainController.swift */,
 				F9037FF01E80EE99008CB97B /* RegisterController.swift */,
 				F95EC16F1E7F755B00501782 /* Assets.xcassets */,
 				F9037FEE1E7FB6B8008CB97B /* foodImg.jpg */,
@@ -467,6 +470,7 @@
 				F95EC1681E7F755800501782 /* ViewController.swift in Sources */,
 				F95EC16E1E7F755A00501782 /* ManageCooking.xcdatamodeld in Sources */,
 				F95EC1661E7F755800501782 /* AppDelegate.swift in Sources */,
+				F98AC82D1E84D47E00AADD0E /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
