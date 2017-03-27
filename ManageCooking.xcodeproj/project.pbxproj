@@ -21,6 +21,12 @@
 		F95EC17E1E7F756300501782 /* ManageCookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC17D1E7F756300501782 /* ManageCookingTests.swift */; };
 		F95EC1891E7F756300501782 /* ManageCookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC1881E7F756300501782 /* ManageCookingUITests.swift */; };
 		F95EC1971E7F768B00501782 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F95EC1961E7F768B00501782 /* GoogleService-Info.plist */; };
+		F9659F501E88AA7E00461826 /* message_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9659F4D1E88AA7E00461826 /* message_icon.png */; };
+		F9659F511E88AA7E00461826 /* info.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9659F4E1E88AA7E00461826 /* info.jpg */; };
+		F9659F521E88AA7E00461826 /* ListIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9659F4F1E88AA7E00461826 /* ListIcon.png */; };
+		F9659F541E88ABA200461826 /* Chef-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9659F531E88ABA200461826 /* Chef-2-icon.png */; };
+		F9659F561E88ADD200461826 /* Review-512.png in Resources */ = {isa = PBXBuildFile; fileRef = F9659F551E88ADD200461826 /* Review-512.png */; };
+		F9659F581E88B38A00461826 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9659F571E88B38A00461826 /* InfoController.swift */; };
 		F98AC82D1E84D47E00AADD0E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98AC82C1E84D47D00AADD0E /* MainController.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +73,13 @@
 		F95EC1881E7F756300501782 /* ManageCookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCookingUITests.swift; sourceTree = "<group>"; };
 		F95EC18A1E7F756300501782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95EC1961E7F768B00501782 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9659F4C1E8833F600461826 /* ManageCooking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ManageCooking.entitlements; sourceTree = "<group>"; };
+		F9659F4D1E88AA7E00461826 /* message_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_icon.png; sourceTree = "<group>"; };
+		F9659F4E1E88AA7E00461826 /* info.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = info.jpg; sourceTree = "<group>"; };
+		F9659F4F1E88AA7E00461826 /* ListIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListIcon.png; sourceTree = "<group>"; };
+		F9659F531E88ABA200461826 /* Chef-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chef-2-icon.png"; sourceTree = "<group>"; };
+		F9659F551E88ADD200461826 /* Review-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Review-512.png"; sourceTree = "<group>"; };
+		F9659F571E88B38A00461826 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
 		F98AC82C1E84D47D00AADD0E /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		FB07D9349370CC88D1A54FF4 /* Pods_ManageCooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManageCooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,12 +160,19 @@
 		F95EC1641E7F755800501782 /* ManageCooking */ = {
 			isa = PBXGroup;
 			children = (
+				F9659F4C1E8833F600461826 /* ManageCooking.entitlements */,
 				F95EC1651E7F755800501782 /* AppDelegate.swift */,
 				F95EC1671E7F755800501782 /* ViewController.swift */,
 				F95EC1691E7F755900501782 /* Main.storyboard */,
+				F9659F571E88B38A00461826 /* InfoController.swift */,
 				F98AC82C1E84D47D00AADD0E /* MainController.swift */,
 				F9037FF01E80EE99008CB97B /* RegisterController.swift */,
 				F95EC16F1E7F755B00501782 /* Assets.xcassets */,
+				F9659F551E88ADD200461826 /* Review-512.png */,
+				F9659F531E88ABA200461826 /* Chef-2-icon.png */,
+				F9659F4D1E88AA7E00461826 /* message_icon.png */,
+				F9659F4E1E88AA7E00461826 /* info.jpg */,
+				F9659F4F1E88AA7E00461826 /* ListIcon.png */,
 				F9037FEE1E7FB6B8008CB97B /* foodImg.jpg */,
 				F95EC1711E7F755B00501782 /* LaunchScreen.storyboard */,
 				F95EC1741E7F755C00501782 /* Info.plist */,
@@ -259,6 +279,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 5PKYKCYDR5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					F95EC1781E7F756300501782 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -300,9 +325,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95EC1731E7F755B00501782 /* LaunchScreen.storyboard in Resources */,
+				F9659F511E88AA7E00461826 /* info.jpg in Resources */,
 				F95EC1971E7F768B00501782 /* GoogleService-Info.plist in Resources */,
+				F9659F501E88AA7E00461826 /* message_icon.png in Resources */,
+				F9659F541E88ABA200461826 /* Chef-2-icon.png in Resources */,
+				F9659F521E88AA7E00461826 /* ListIcon.png in Resources */,
 				F95EC1701E7F755B00501782 /* Assets.xcassets in Resources */,
 				F9037FEF1E7FB6B9008CB97B /* foodImg.jpg in Resources */,
+				F9659F561E88ADD200461826 /* Review-512.png in Resources */,
 				F95EC16B1E7F755900501782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +501,7 @@
 				F95EC16E1E7F755A00501782 /* ManageCooking.xcdatamodeld in Sources */,
 				F95EC1661E7F755800501782 /* AppDelegate.swift in Sources */,
 				F98AC82D1E84D47E00AADD0E /* MainController.swift in Sources */,
+				F9659F581E88B38A00461826 /* InfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +654,7 @@
 			baseConfigurationReference = 778421928FA0C3C5180F5F5A /* Pods-ManageCooking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ManageCooking/ManageCooking.entitlements;
 				DEVELOPMENT_TEAM = 5PKYKCYDR5;
 				INFOPLIST_FILE = ManageCooking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -637,6 +669,7 @@
 			baseConfigurationReference = 2F3F3FBF0C1396B48C111BC1 /* Pods-ManageCooking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ManageCooking/ManageCooking.entitlements;
 				DEVELOPMENT_TEAM = 5PKYKCYDR5;
 				INFOPLIST_FILE = ManageCooking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

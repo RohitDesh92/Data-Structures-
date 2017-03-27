@@ -29,8 +29,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 else{
                   self.Err_msg.text = "*Invalid Username/Password"
                 }
-                
-                
             } }
             else{
               
@@ -38,8 +36,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }//else
             
            }//if
-       
-    
     
     override func viewDidLoad() {
          super.viewDidLoad()

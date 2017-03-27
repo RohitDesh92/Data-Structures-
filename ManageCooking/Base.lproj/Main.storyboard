@@ -137,9 +137,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foodImg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ALj-Rh-u5u">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foodImg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ALj-Rh-u5u">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="|" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8e-iy-vaO">
                                 <rect key="frame" x="178" y="408" width="17" height="35"/>
@@ -155,7 +154,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAj-oS-odQ">
-                                <rect key="frame" x="71" y="400" width="55" height="30"/>
+                                <rect key="frame" x="115" y="408" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="1" green="0.28934840239999998" blue="0.34271407640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -204,16 +203,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZi-Mz-FA8">
-                                <rect key="frame" x="252" y="400" width="47" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sign In">
-                                    <color key="titleColor" red="1" green="0.28934840239999998" blue="0.34271407640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SignIn" id="S1x-hb-X22"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43W-IR-Ry4">
                                 <rect key="frame" x="69" y="438" width="240" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -230,8 +219,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZi-Mz-FA8">
+                                <rect key="frame" x="203" y="408" width="47" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" red="1" green="0.28934840239999998" blue="0.34271407640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="SignIn" id="S1x-hb-X22"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ALj-Rh-u5u" firstAttribute="top" secondItem="8A4-5h-DEd" secondAttribute="top" id="45Y-av-gj2"/>
+                            <constraint firstItem="AoE-Hz-VqH" firstAttribute="top" secondItem="ALj-Rh-u5u" secondAttribute="bottom" id="4F6-66-Qew"/>
+                            <constraint firstAttribute="trailing" secondItem="ALj-Rh-u5u" secondAttribute="trailing" id="Itl-Xa-95J"/>
+                            <constraint firstItem="ALj-Rh-u5u" firstAttribute="leading" secondItem="8A4-5h-DEd" secondAttribute="leading" id="etI-I0-Xi5"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="Email" destination="DDy-MJ-sVc" id="yoK-lK-Cvn"/>
@@ -261,10 +266,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ub7-rp-gG0">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="This application is Developed by Rohit Deshmukh. All rights Reserved @2017" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9DW-T4-Gm8">
+                                <rect key="frame" x="67" y="594" width="241" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.9810900092" green="0.98383778330000005" blue="0.94689100979999996" alpha="0.46318493150000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="message_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="i2d-ha-aWi">
+                                <rect key="frame" x="208" y="354" width="140" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ListIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="qA3-ts-PDy">
+                                <rect key="frame" x="208" y="186" width="140" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Review-512.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lnv-qz-icT">
+                                <rect key="frame" x="39" y="362" width="140" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Wel-Come User" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HG6-ex-S8q">
                                 <rect key="frame" x="131" y="54" width="244" height="30"/>
@@ -274,16 +294,85 @@
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chef-2-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="71K-Np-MzQ">
+                                <rect key="frame" x="39" y="186" width="140" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="k6R-8E-fpZ" appends="YES" id="ktJ-J0-NNX"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ub7-rp-gG0">
+                                <rect key="frame" x="16" y="113" width="343" height="462"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q4e-Lm-JsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="k6R-8E-fpZ">
+                    <connections>
+                        <segue destination="Cj1-Sb-O9b" kind="show" id="MAw-JQ-50J"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="722" y="-838"/>
+            <point key="canvasLocation" x="639" y="-839"/>
+        </scene>
+        <!--Info Controller-->
+        <scene sceneID="wNF-QG-lHE">
+            <objects>
+                <viewController id="Cj1-Sb-O9b" customClass="InfoController" customModule="ManageCooking" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rVb-by-rcA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Obf-8v-I1d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wAz-z5-cQJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foodImg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hnc-W6-vFK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xsh-S9-22S">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Manage Cooking" id="riu-9O-hof">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="Syf-w2-eBq">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hLk-P1-Ag5">
+                                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <state key="normal" title="&lt; Home"/>
+                                            </button>
+                                            <connections>
+                                                <segue destination="5vJ-xf-1Lv" kind="show" id="tmd-c9-KGJ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CX9-Mi-QfP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1511" y="-1188"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Chef-2-icon.png" width="512" height="512"/>
+        <image name="ListIcon.png" width="221" height="221"/>
+        <image name="Review-512.png" width="512" height="512"/>
         <image name="foodImg.jpg" width="733" height="550"/>
+        <image name="message_icon.png" width="128" height="128"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="tmd-c9-KGJ"/>
+    </inferredMetricsTieBreakers>
 </document>
